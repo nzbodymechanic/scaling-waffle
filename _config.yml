@@ -48,7 +48,7 @@ url: http://nzbodymechanic.github.io
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "http://nzbodymechanic.github.io/scaling-waffle"
+baseurl: ""
 
 # pagination
 paginate: 1
@@ -72,7 +72,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-paginate
 # Exclude these files from your production _site

@@ -273,6 +273,7 @@ GEM
       unf_ext
     unf_ext (0.0.9.1)
     uri (0.13.0)
+    webrick (1.8.1)
 
 PLATFORMS
   aarch64-linux
@@ -293,6 +294,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.5.6
