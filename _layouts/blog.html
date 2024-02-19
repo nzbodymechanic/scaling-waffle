@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+  <!-- web fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:400,600,700' rel='stylesheet' type='text/css'>
+
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="description" content="{{ site.description }}">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />-->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/skeleton/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/skeleton/css/skeleton.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/skeleton/css/custom.css" />
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now and Skeleton -->
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+</head>
+
+<body>
+
+
+<div id="main" role="main" class="container">
+  {{ content }}
+</div>
+
+<div class="wrapper-footer">
+  <div class="container">
+    <footer class="footer">
+      <p></p>Words and pictures &copy; Blair Rorani 2015</p>
+    </footer>
+  </div>
+</div>
+
+</body>
+</html>

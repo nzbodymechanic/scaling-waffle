@@ -1,0 +1,11 @@
+<div class="row u-c-txt older-newer">
+  {% if page.previous.url %}
+  <a href="{{page.previous.url}}" title="{{page.previous.title}}">Older</a>
+  {% else %}
+  {% endif %}
+  /
+  {% if page.next.url %}
+  <a href="{{page.next.url}}" title="{{page.next.title}}">Newer</a>
+  {% else %}
+  {% endif %}
+</div>

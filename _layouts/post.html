@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include what-is-this.html %}
+
+<article class="post">
+  <h1 class="u-c-txt">{{ page.title }}</h1>
+
+  {% include author.html %}
+
+  <div class="entry">
+    {{ content }}
+  </div>
+<p class="u-c-txt"><a href="/{{ page.category}}">#{{ page.category | replace: '-', ' ' }}</a></p>
+
+{% include share.html %}
+
+</article>
+
+{% include about-blair.html %}
+
+{% include blog-paging.html %}

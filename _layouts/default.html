@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+  <head>
+    <meta name="google-site-verification" content="UrrBw_Ttm8j8WLCK_S5GBLU0pB5EPyZawb_vXaPFfvc" />
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <title>{% if page.title %}{{ page.title }}:{% endif %} NZ BODY MECHANIC</title>
+
+    <!-- web fonts -->
+
+    <!-- typekit -->
+    <script src="https://use.typekit.net/iar1egv.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <!-- google -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ page.description }}">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/skeleton/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/skeleton/css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/skeleton/css/custom.css" />
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now and Skeleton -->
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+  </head>
+
+  <body>
+
+    <section id="top-bar">
+      <p>Call Isaac on {% include tel.html %} or <a href="https://nzbodymechanic.gettimely.com/book" target="_blank">book online</a></p>
+    </section>
+
+    <header>
+      <div class="header-content">
+        <a href="{{ site.url }}" class="no-border"><img src="{{ site.baseurl }}/images/nz-body-mechanic-logo-full.png" alt="NZ Body Mechanic logo" class="site-logo"></a>
+
+        {% include nav.html %}
+
+      </div>
+    </header><!-- /header -->
+
+    {{ content }}
+
+    <div class="row footer-links">
+      <ul>
+        <li><a href="{{ site.baseurl }}/about">About</a>
+        </li>
+        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+        <li><a href="https://www.facebook.com/pages/NZbodymechanic/126774667335479" target="_blank">Facebook</a></li>
+        <li><a href="http://nz.linkedin.com/in/isaacjamesnorman" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div><!-- footer-links -->
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          <p></p>Words and pictures &copy; {{ site.name }} 2013-2015</p>
+        </footer>
+      </div>
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>
